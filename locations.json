@@ -1,0 +1,4391 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "license": "CC BY 4.0d",
+    "website": "api.openaq.org",
+    "page": 1,
+    "limit": 100,
+    "found": 41
+  },
+  "results": [
+    {
+      "id": 8039,
+      "city": "Mumbai",
+      "name": "US Diplomatic Post: Mumbai",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "http://www.airnow.gov/",
+          "name": "US EPA AirNow",
+          "id": "us-epa-airnow",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": null,
+          "name": "U.S. Department of State India - Mumbai",
+          "id": "u-s-department-of-state-india-mumbai",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "http://airnow.gov/index.cfm?action=airnow.global_summary",
+          "name": "EPA AirNow DOS",
+          "id": "epa-airnow-dos",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 23320,
+          "unit": "µg/m³",
+          "count": 140492,
+          "average": -50.0660179939071,
+          "lastValue": 60,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2023-04-10T06:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2016-11-09T17:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.07283,
+        "longitude": 72.88261
+      },
+      "lastUpdated": "2023-04-10T06:30:00+00:00",
+      "firstUpdated": "2016-11-09T17:30:00+00:00",
+      "measurements": 140492,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 6928,
+      "city": "Mumbai",
+      "name": "Vasai West, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 19895,
+          "unit": "µg/m³",
+          "count": 26421,
+          "average": 7.99635971386397,
+          "lastValue": 35.57,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19896,
+          "unit": "µg/m³",
+          "count": 58890,
+          "average": 893.555781966378,
+          "lastValue": 720,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19898,
+          "unit": "µg/m³",
+          "count": 53628,
+          "average": 214.385277466995,
+          "lastValue": 119.76,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19897,
+          "unit": "µg/m³",
+          "count": 57302,
+          "average": 59.3158928135143,
+          "lastValue": 1.28,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19894,
+          "unit": "µg/m³",
+          "count": 63819,
+          "average": 69.4448537269465,
+          "lastValue": 56.5,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19893,
+          "unit": "µg/m³",
+          "count": 62674,
+          "average": 17.93110955101,
+          "lastValue": 26.51,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.3832,
+        "longitude": 72.8204
+      },
+      "lastUpdated": "2022-10-31T02:00:00+00:00",
+      "firstUpdated": "2019-06-18T23:15:00+00:00",
+      "measurements": 322734,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 6945,
+      "city": "Mumbai",
+      "name": "Kurla, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 19993,
+          "unit": "µg/m³",
+          "count": 77914,
+          "average": 461.139204764227,
+          "lastValue": 640,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20076,
+          "unit": "µg/m³",
+          "count": 84603,
+          "average": 35.5629969386428,
+          "lastValue": 38.05,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19978,
+          "unit": "µg/m³",
+          "count": 91085,
+          "average": 96.2824085195148,
+          "lastValue": 72,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19968,
+          "unit": "µg/m³",
+          "count": 76490,
+          "average": 30.7758171002745,
+          "lastValue": 37.15,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19987,
+          "unit": "µg/m³",
+          "count": 77166,
+          "average": 34.0362579374336,
+          "lastValue": 12.58,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19975,
+          "unit": "µg/m³",
+          "count": 80884,
+          "average": 139.330807081747,
+          "lastValue": 67,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.0863,
+        "longitude": 72.8888
+      },
+      "lastUpdated": "2022-10-31T02:00:00+00:00",
+      "firstUpdated": "2019-06-18T23:15:00+00:00",
+      "measurements": 488142,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 6959,
+      "city": "Mumbai",
+      "name": "Worli, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 20029,
+          "unit": "µg/m³",
+          "count": 75207,
+          "average": 582.422114962703,
+          "lastValue": 1400,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2019-06-20T11:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20034,
+          "unit": "µg/m³",
+          "count": 76449,
+          "average": 10.8337168569896,
+          "lastValue": 12.56,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2019-06-20T11:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20032,
+          "unit": "µg/m³",
+          "count": 77913,
+          "average": 141.51861627713,
+          "lastValue": 121,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2019-06-20T11:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20031,
+          "unit": "µg/m³",
+          "count": 73542,
+          "average": 35.4211057626934,
+          "lastValue": 3.99,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2019-06-20T11:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20030,
+          "unit": "µg/m³",
+          "count": 81353,
+          "average": 19.6771412240483,
+          "lastValue": 0.08,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2019-06-20T11:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20033,
+          "unit": "µg/m³",
+          "count": 88097,
+          "average": 76.4000652689649,
+          "lastValue": 66,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2019-06-20T11:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 18.9936162,
+        "longitude": 72.8128113
+      },
+      "lastUpdated": "2022-10-31T02:00:00+00:00",
+      "firstUpdated": "2019-06-20T11:30:00+00:00",
+      "measurements": 472561,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 6965,
+      "city": "Mumbai",
+      "name": "Borivali East, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 20090,
+          "unit": "µg/m³",
+          "count": 42774,
+          "average": 11.8520465703465,
+          "lastValue": 9.58,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2019-06-20T15:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20085,
+          "unit": "µg/m³",
+          "count": 43806,
+          "average": 69.6339227503082,
+          "lastValue": 55,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2019-06-20T15:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20075,
+          "unit": "µg/m³",
+          "count": 39849,
+          "average": 363.783783783784,
+          "lastValue": 1070,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2019-06-20T15:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20081,
+          "unit": "µg/m³",
+          "count": 45231,
+          "average": 4.86618757047158,
+          "lastValue": 11.5,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2019-06-20T15:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20084,
+          "unit": "µg/m³",
+          "count": 40764,
+          "average": 21.5454106564616,
+          "lastValue": 16.72,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2019-06-20T15:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20087,
+          "unit": "µg/m³",
+          "count": 48876,
+          "average": 46.5434925116622,
+          "lastValue": 57,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-31T02:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2019-06-20T15:15:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.2243333,
+        "longitude": 72.8658113
+      },
+      "lastUpdated": "2022-10-31T02:00:00+00:00",
+      "firstUpdated": "2019-06-20T15:15:00+00:00",
+      "measurements": 261300,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 6927,
+      "city": "Mumbai",
+      "name": "Colaba, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 20144,
+          "unit": "µg/m³",
+          "count": 68878,
+          "average": 16.877825285287,
+          "lastValue": 6.03,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2019-06-28T05:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20137,
+          "unit": "µg/m³",
+          "count": 73320,
+          "average": 555.710992907801,
+          "lastValue": 1340,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2019-06-28T05:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20139,
+          "unit": "µg/m³",
+          "count": 70990,
+          "average": 28.3638651922806,
+          "lastValue": 2.49,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2019-06-28T05:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19892,
+          "unit": "µg/m³",
+          "count": 74364,
+          "average": 18.9886325372492,
+          "lastValue": 58.79,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2019-06-28T05:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20142,
+          "unit": "µg/m³",
+          "count": 77981,
+          "average": 105.89336966697,
+          "lastValue": 157.8,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2019-06-28T05:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20143,
+          "unit": "µg/m³",
+          "count": 81628,
+          "average": 61.2623861910129,
+          "lastValue": 72.16,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2019-06-28T05:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 18.91,
+        "longitude": 72.82
+      },
+      "lastUpdated": "2022-10-31T01:45:00+00:00",
+      "firstUpdated": "2019-06-28T05:30:00+00:00",
+      "measurements": 447161,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 6948,
+      "city": "Mumbai",
+      "name": "Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 19977,
+          "unit": "µg/m³",
+          "count": 80019,
+          "average": 28.5305422462165,
+          "lastValue": 15.97,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19980,
+          "unit": "µg/m³",
+          "count": 90645,
+          "average": 150.144628164819,
+          "lastValue": 184,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19979,
+          "unit": "µg/m³",
+          "count": 82918,
+          "average": 18.0852076750525,
+          "lastValue": 29.5,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19981,
+          "unit": "µg/m³",
+          "count": 87007,
+          "average": 109.440526049628,
+          "lastValue": 44,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19982,
+          "unit": "µg/m³",
+          "count": 84783,
+          "average": 9.44556703584445,
+          "lastValue": 6.54,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19976,
+          "unit": "µg/m³",
+          "count": 81439,
+          "average": 896.937953560334,
+          "lastValue": 830,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.10078,
+        "longitude": 72.87462
+      },
+      "lastUpdated": "2022-10-31T01:45:00+00:00",
+      "firstUpdated": "2019-06-18T23:15:00+00:00",
+      "measurements": 506811,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 6967,
+      "city": "Mumbai",
+      "name": "Sion, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 20096,
+          "unit": "µg/m³",
+          "count": 87708,
+          "average": 63.3367791991608,
+          "lastValue": 56.7,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2019-06-27T05:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20107,
+          "unit": "µg/m³",
+          "count": 82662,
+          "average": 40.9345275942997,
+          "lastValue": 84.9,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2019-06-27T05:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20098,
+          "unit": "µg/m³",
+          "count": 77323,
+          "average": 22.7938741383547,
+          "lastValue": 7.38,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2019-06-27T05:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20097,
+          "unit": "µg/m³",
+          "count": 80085,
+          "average": 122.038921895486,
+          "lastValue": 130.97,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2019-06-27T05:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20095,
+          "unit": "µg/m³",
+          "count": 78923,
+          "average": 13.8222319222533,
+          "lastValue": 9.56,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2019-06-27T05:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20109,
+          "unit": "µg/m³",
+          "count": 71542,
+          "average": 607.147549691091,
+          "lastValue": 2590,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-09-16T06:00:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2019-06-27T05:15:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.047,
+        "longitude": 72.8746
+      },
+      "lastUpdated": "2022-10-31T01:45:00+00:00",
+      "firstUpdated": "2019-06-27T05:15:00+00:00",
+      "measurements": 478243,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 6987,
+      "city": "Mumbai",
+      "name": "Vile Parle West, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 20239,
+          "unit": "µg/m³",
+          "count": 80504,
+          "average": 24.3778111646626,
+          "lastValue": 5.36,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2019-06-18T23:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20254,
+          "unit": "µg/m³",
+          "count": 82117,
+          "average": 11.9852158505547,
+          "lastValue": 0,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2019-06-18T23:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20240,
+          "unit": "µg/m³",
+          "count": 75809,
+          "average": 25.975640623145,
+          "lastValue": 35.09,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2019-06-18T23:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20243,
+          "unit": "µg/m³",
+          "count": 76689,
+          "average": 176.117036602381,
+          "lastValue": 113.13,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2019-06-18T23:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20251,
+          "unit": "µg/m³",
+          "count": 76475,
+          "average": 114.807156194835,
+          "lastValue": 56.6,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2019-06-18T23:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20236,
+          "unit": "µg/m³",
+          "count": 79315,
+          "average": 751.138876631154,
+          "lastValue": 1080,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-31T01:45:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2019-06-18T23:00:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.10861,
+        "longitude": 72.83622
+      },
+      "lastUpdated": "2022-10-31T01:45:00+00:00",
+      "firstUpdated": "2019-06-18T23:00:00+00:00",
+      "measurements": 470909,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 11600,
+      "city": "Mumbai",
+      "name": "Mazgaon, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 39397,
+          "unit": "µg/m³",
+          "count": 24201,
+          "average": 31.7181108218669,
+          "lastValue": 4,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-16T16:00:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2020-11-10T07:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39394,
+          "unit": "µg/m³",
+          "count": 24188,
+          "average": 27.3591160906235,
+          "lastValue": 46.38,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-16T16:00:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2020-11-10T07:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39396,
+          "unit": "µg/m³",
+          "count": 24201,
+          "average": 797.50671459857,
+          "lastValue": 2540,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-16T16:00:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2020-11-10T07:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39392,
+          "unit": "µg/m³",
+          "count": 24152,
+          "average": 80.9631450811527,
+          "lastValue": 19.74,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-16T16:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-11-10T07:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39393,
+          "unit": "µg/m³",
+          "count": 24180,
+          "average": 119.987916459884,
+          "lastValue": 37.11,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-16T16:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2020-11-10T07:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39395,
+          "unit": "µg/m³",
+          "count": 24211,
+          "average": 4.33149477510223,
+          "lastValue": 6.93,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-16T16:00:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2020-11-10T07:15:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 18.96702,
+        "longitude": 72.84214
+      },
+      "lastUpdated": "2022-10-16T16:00:00+00:00",
+      "firstUpdated": "2020-11-10T07:15:00+00:00",
+      "measurements": 145133,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 60661,
+      "city": "Mumbai",
+      "name": "Siddharth Nagar-Worli, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 389777,
+          "unit": "µg/m³",
+          "count": 21156,
+          "average": 29.3980431083381,
+          "lastValue": 19,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-16T16:00:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2021-01-12T14:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 389767,
+          "unit": "µg/m³",
+          "count": 21162,
+          "average": 15.4704763254891,
+          "lastValue": 45.37,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-16T16:00:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2021-01-12T14:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 389761,
+          "unit": "µg/m³",
+          "count": 21153,
+          "average": 37.3419514962417,
+          "lastValue": 62.24,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-16T16:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2021-01-12T14:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 389771,
+          "unit": "µg/m³",
+          "count": 21150,
+          "average": 60.3673914893617,
+          "lastValue": 102.6,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-16T16:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2021-01-12T14:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 389760,
+          "unit": "µg/m³",
+          "count": 21159,
+          "average": 661.932510988232,
+          "lastValue": 1740,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-16T16:00:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2021-01-12T14:00:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.000083,
+        "longitude": 72.813993
+      },
+      "lastUpdated": "2022-10-16T16:00:00+00:00",
+      "firstUpdated": "2021-01-12T14:00:00+00:00",
+      "measurements": 105780,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 11602,
+      "city": "Mumbai",
+      "name": "Bandra Kurla Complex, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 39409,
+          "unit": "µg/m³",
+          "count": 21696,
+          "average": 16.2481563421829,
+          "lastValue": 5,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39404,
+          "unit": "µg/m³",
+          "count": 21695,
+          "average": 57.7661143120535,
+          "lastValue": 26.81,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39406,
+          "unit": "µg/m³",
+          "count": 21697,
+          "average": 27.9589122920219,
+          "lastValue": 143.05,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39408,
+          "unit": "µg/m³",
+          "count": 21716,
+          "average": 973.054429913428,
+          "lastValue": 4230,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39407,
+          "unit": "µg/m³",
+          "count": 21699,
+          "average": 14.3898589796765,
+          "lastValue": 19.12,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39405,
+          "unit": "µg/m³",
+          "count": 17463,
+          "average": 125.890726679265,
+          "lastValue": 152.38,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.053536,
+        "longitude": 72.84643
+      },
+      "lastUpdated": "2022-10-16T15:45:00+00:00",
+      "firstUpdated": "2020-11-13T12:15:00+00:00",
+      "measurements": 125966,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 11604,
+      "city": "Mumbai",
+      "name": "Deonar, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 39421,
+          "unit": "µg/m³",
+          "count": 22589,
+          "average": 32.2560706538581,
+          "lastValue": 0,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39418,
+          "unit": "µg/m³",
+          "count": 22591,
+          "average": 31.1278575538931,
+          "lastValue": 4.53,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39417,
+          "unit": "µg/m³",
+          "count": 22531,
+          "average": 176.725961120234,
+          "lastValue": 156.78,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39420,
+          "unit": "µg/m³",
+          "count": 22529,
+          "average": 1437.21292556261,
+          "lastValue": 2340,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39419,
+          "unit": "µg/m³",
+          "count": 22589,
+          "average": 36.062853158617,
+          "lastValue": 4.43,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39416,
+          "unit": "µg/m³",
+          "count": 22561,
+          "average": 58.7577633970125,
+          "lastValue": 75.1,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.04946,
+        "longitude": 72.923
+      },
+      "lastUpdated": "2022-10-16T15:45:00+00:00",
+      "firstUpdated": "2020-11-13T12:15:00+00:00",
+      "measurements": 135390,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 11611,
+      "city": "Mumbai",
+      "name": "Malad West, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 39454,
+          "unit": "µg/m³",
+          "count": 18022,
+          "average": 48.2395494395738,
+          "lastValue": 3.99,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39459,
+          "unit": "µg/m³",
+          "count": 18024,
+          "average": 78.8082711939636,
+          "lastValue": 2,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39458,
+          "unit": "µg/m³",
+          "count": 18027,
+          "average": 880.986298330282,
+          "lastValue": 3340,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39455,
+          "unit": "µg/m³",
+          "count": 18022,
+          "average": 121.230681389413,
+          "lastValue": 101.09,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39456,
+          "unit": "µg/m³",
+          "count": 18024,
+          "average": 14.2874267643142,
+          "lastValue": 1.96,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39457,
+          "unit": "µg/m³",
+          "count": 18037,
+          "average": 4.79807451350003,
+          "lastValue": 18.84,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.19709,
+        "longitude": 72.82204
+      },
+      "lastUpdated": "2022-10-16T15:45:00+00:00",
+      "firstUpdated": "2020-11-13T12:15:00+00:00",
+      "measurements": 108156,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 12040,
+      "city": "Mumbai",
+      "name": "Mulund West, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 40612,
+          "unit": "µg/m³",
+          "count": 19069,
+          "average": 23.3435843515654,
+          "lastValue": 18.98,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2020-12-16T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40644,
+          "unit": "µg/m³",
+          "count": 13039,
+          "average": 30.5592545440601,
+          "lastValue": 9.79,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-05-14T10:45:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2020-12-16T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40609,
+          "unit": "µg/m³",
+          "count": 18091,
+          "average": 665.277762423304,
+          "lastValue": 640,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2020-12-16T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40628,
+          "unit": "µg/m³",
+          "count": 18376,
+          "average": 139.812119612538,
+          "lastValue": 86,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2020-12-16T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40640,
+          "unit": "µg/m³",
+          "count": 18210,
+          "average": 19.4833053267435,
+          "lastValue": 13.63,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2020-12-16T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40641,
+          "unit": "µg/m³",
+          "count": 21047,
+          "average": 64.0749693543023,
+          "lastValue": 47.69,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-12-16T12:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.175,
+        "longitude": 72.9419
+      },
+      "lastUpdated": "2022-10-16T15:45:00+00:00",
+      "firstUpdated": "2020-12-16T12:30:00+00:00",
+      "measurements": 107832,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 12044,
+      "city": "Mumbai",
+      "name": "Kandivali East, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 40616,
+          "unit": "µg/m³",
+          "count": 17336,
+          "average": 823.883825565298,
+          "lastValue": 270,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2020-12-16T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40620,
+          "unit": "µg/m³",
+          "count": 17562,
+          "average": 15.2167976312493,
+          "lastValue": 14.72,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2020-12-16T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40652,
+          "unit": "µg/m³",
+          "count": 17885,
+          "average": 238.25094883981,
+          "lastValue": 145.42,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2020-12-16T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40627,
+          "unit": "µg/m³",
+          "count": 14375,
+          "average": 18.2767902608696,
+          "lastValue": 8.57,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-12T08:45:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2020-12-16T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40624,
+          "unit": "µg/m³",
+          "count": 20958,
+          "average": 29.2508688806184,
+          "lastValue": 13.64,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2020-12-16T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40650,
+          "unit": "µg/m³",
+          "count": 19301,
+          "average": 116.310020724315,
+          "lastValue": 47.5,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-16T15:45:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-12-16T12:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.2058,
+        "longitude": 72.8682
+      },
+      "lastUpdated": "2022-10-16T15:45:00+00:00",
+      "firstUpdated": "2020-12-16T12:30:00+00:00",
+      "measurements": 107417,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 6956,
+      "city": "Mumbai",
+      "name": "Powai, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 20010,
+          "unit": "µg/m³",
+          "count": 75573,
+          "average": 94.9783987667553,
+          "lastValue": 47,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-16T13:15:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20083,
+          "unit": "µg/m³",
+          "count": 81177,
+          "average": 13.0513290710423,
+          "lastValue": 20.45,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-16T13:15:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20054,
+          "unit": "µg/m³",
+          "count": 67612,
+          "average": 26.8368549961545,
+          "lastValue": 7.75,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-16T13:15:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20079,
+          "unit": "µg/m³",
+          "count": 90271,
+          "average": 63.3549007987061,
+          "lastValue": 28,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-16T13:15:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20101,
+          "unit": "µg/m³",
+          "count": 72686,
+          "average": 10.9515943923176,
+          "lastValue": 21.29,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-16T13:15:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 20125,
+          "unit": "µg/m³",
+          "count": 69944,
+          "average": 834.650434633421,
+          "lastValue": 1320,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-16T13:15:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2019-06-18T23:15:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.1375,
+        "longitude": 72.915056
+      },
+      "lastUpdated": "2022-10-16T13:15:00+00:00",
+      "firstUpdated": "2019-06-18T23:15:00+00:00",
+      "measurements": 457263,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 12024,
+      "city": "Mumbai",
+      "name": "Chakala-Andheri East, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 40573,
+          "unit": "µg/m³",
+          "count": 21767,
+          "average": 11.4392470253135,
+          "lastValue": 0,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-16T13:00:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2020-12-08T08:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40569,
+          "unit": "µg/m³",
+          "count": 21769,
+          "average": 653.289080802977,
+          "lastValue": 1000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-16T13:00:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2020-12-08T08:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40572,
+          "unit": "µg/m³",
+          "count": 21747,
+          "average": 126.210534326574,
+          "lastValue": 41.66,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-16T13:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2020-12-08T08:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40570,
+          "unit": "µg/m³",
+          "count": 21767,
+          "average": 20.2447282583728,
+          "lastValue": 11,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-16T13:00:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2020-12-08T08:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40574,
+          "unit": "µg/m³",
+          "count": 21763,
+          "average": 32.9113867573405,
+          "lastValue": 116.44,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-16T13:00:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2020-12-08T08:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40571,
+          "unit": "µg/m³",
+          "count": 21739,
+          "average": 59.6223662541975,
+          "lastValue": 32.74,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-16T13:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-12-08T08:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.11074,
+        "longitude": 72.86084
+      },
+      "lastUpdated": "2022-10-16T13:00:00+00:00",
+      "firstUpdated": "2020-12-08T08:30:00+00:00",
+      "measurements": 130552,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 11605,
+      "city": "Mumbai",
+      "name": "Navy Nagar-Colaba, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 39426,
+          "unit": "µg/m³",
+          "count": 19823,
+          "average": 847.875699944509,
+          "lastValue": 930,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-10-13T08:15:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39427,
+          "unit": "µg/m³",
+          "count": 19835,
+          "average": 41.5542223342576,
+          "lastValue": 58,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-10-13T08:15:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39422,
+          "unit": "µg/m³",
+          "count": 19801,
+          "average": 63.1139144487652,
+          "lastValue": 49.28,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-10-13T08:15:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39425,
+          "unit": "µg/m³",
+          "count": 19823,
+          "average": 3.99511577460526,
+          "lastValue": 0,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-10-13T08:15:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39424,
+          "unit": "µg/m³",
+          "count": 19811,
+          "average": 18.385346524658,
+          "lastValue": 46.91,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-10-13T08:15:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39423,
+          "unit": "µg/m³",
+          "count": 19792,
+          "average": 128.067472716249,
+          "lastValue": 80,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-10-13T08:15:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2020-11-13T12:15:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 18.897756,
+        "longitude": 72.81332
+      },
+      "lastUpdated": "2022-10-13T08:15:00+00:00",
+      "firstUpdated": "2020-11-13T12:15:00+00:00",
+      "measurements": 118885,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 12039,
+      "city": "Mumbai",
+      "name": "Khindipada-Bhandup West, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 40636,
+          "unit": "µg/m³",
+          "count": 4006,
+          "average": 884.570644033949,
+          "lastValue": 460,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-09-22T05:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2020-12-16T12:45:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40615,
+          "unit": "µg/m³",
+          "count": 4000,
+          "average": 112.47458,
+          "lastValue": 11.81,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-09-22T05:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2020-12-16T12:45:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40608,
+          "unit": "µg/m³",
+          "count": 4009,
+          "average": 61.1482738837615,
+          "lastValue": 5.21,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-09-22T05:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-12-16T12:45:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40639,
+          "unit": "µg/m³",
+          "count": 4012,
+          "average": 23.6043793619143,
+          "lastValue": 1.34,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-09-22T05:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2020-12-16T12:45:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40634,
+          "unit": "µg/m³",
+          "count": 4006,
+          "average": 60.6398302546181,
+          "lastValue": 22,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-09-22T05:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2020-12-16T12:45:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 40617,
+          "unit": "µg/m³",
+          "count": 4009,
+          "average": 5.4192741332003,
+          "lastValue": 0.62,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-09-22T05:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2020-12-16T12:45:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.1653323,
+        "longitude": 72.922099
+      },
+      "lastUpdated": "2022-09-22T05:30:00+00:00",
+      "firstUpdated": "2020-12-16T12:45:00+00:00",
+      "measurements": 24042,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 11606,
+      "city": "Mumbai",
+      "name": "Borivali East, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 39430,
+          "unit": "µg/m³",
+          "count": 22303,
+          "average": 10.8697408420392,
+          "lastValue": 1.44,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-07-08T07:15:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2020-11-13T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39432,
+          "unit": "µg/m³",
+          "count": 22315,
+          "average": 22.3510643065203,
+          "lastValue": 8,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-07-08T07:15:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2020-11-13T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39431,
+          "unit": "µg/m³",
+          "count": 22312,
+          "average": 428.211724632485,
+          "lastValue": 370,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-07-08T07:15:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2020-11-13T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39429,
+          "unit": "µg/m³",
+          "count": 22300,
+          "average": 107.091122869955,
+          "lastValue": 36.65,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-07-08T07:15:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2020-11-13T12:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 39428,
+          "unit": "µg/m³",
+          "count": 22297,
+          "average": 50.5822442481051,
+          "lastValue": 0,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-07-08T07:15:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-11-13T12:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.23241,
+        "longitude": 72.86895
+      },
+      "lastUpdated": "2022-07-08T07:15:00+00:00",
+      "firstUpdated": "2020-11-13T12:30:00+00:00",
+      "measurements": 111527,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301648,
+      "city": "Mumbai",
+      "name": "Bandra Kurla Complex, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715319,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 37000,
+          "lastValue": 37000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715917,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 151,
+          "lastValue": 151,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715805,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 130,
+          "lastValue": 130,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1714971,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 8,
+          "lastValue": 8,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 12,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301655,
+      "city": "Mumbai",
+      "name": "Borivali East, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715387,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 200,
+          "lastValue": 200,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715198,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 22,
+          "lastValue": 22,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715445,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 128,
+          "lastValue": 128,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1714874,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 31000,
+          "lastValue": 31000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715374,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 31,
+          "lastValue": 31,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 15,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301656,
+      "city": "Mumbai",
+      "name": "Borivali East, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715464,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 19,
+          "lastValue": 19,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715660,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 19,
+          "lastValue": 19,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715310,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 137,
+          "lastValue": 137,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715180,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 130,
+          "lastValue": 130,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1714762,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 26000,
+          "lastValue": 26000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 15,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301662,
+      "city": "Mumbai",
+      "name": "Chakala-Andheri East, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1714993,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 17,
+          "lastValue": 17,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715118,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 177,
+          "lastValue": 177,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715879,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 28000,
+          "lastValue": 28000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715344,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 28,
+          "lastValue": 28,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715875,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 3,
+          "lastValue": 3,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715586,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 242,
+          "lastValue": 242,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 18,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301663,
+      "city": "Mumbai",
+      "name": "Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715515,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 69,
+          "lastValue": 69,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715320,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 95,
+          "lastValue": 95,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715684,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 14,
+          "lastValue": 14,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715521,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 12,
+          "lastValue": 12,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715257,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 159,
+          "lastValue": 159,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715587,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 43000,
+          "lastValue": 43000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 18,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301669,
+      "city": "Mumbai",
+      "name": "Colaba, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715510,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 23,
+          "lastValue": 23,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1714838,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 133,
+          "lastValue": 133,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715469,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 35000,
+          "lastValue": 35000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715964,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 26,
+          "lastValue": 26,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715825,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 104,
+          "lastValue": 104,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715887,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 3,
+          "lastValue": 3,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 18,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301676,
+      "city": "Mumbai",
+      "name": "Deonar, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715309,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 70,
+          "lastValue": 70,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715295,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 23,
+          "lastValue": 23,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715954,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 6,
+          "lastValue": 6,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715073,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 81,
+          "lastValue": 81,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715229,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 105000,
+          "lastValue": 105000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715744,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 2,
+          "lastValue": 2,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 18,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301735,
+      "city": "Mumbai",
+      "name": "Kurla, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715635,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 53,
+          "lastValue": 53,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715604,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 108,
+          "lastValue": 108,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1714918,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 95,
+          "lastValue": 95,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715324,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 1,
+          "lastValue": 1,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715640,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 33000,
+          "lastValue": 33000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715032,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 185,
+          "lastValue": 185,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 18,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301743,
+      "city": "Mumbai",
+      "name": "Malad West, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715539,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 84,
+          "lastValue": 84,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715260,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 6,
+          "lastValue": 6,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715948,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 29000,
+          "lastValue": 29000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715814,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 25,
+          "lastValue": 25,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715484,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 19,
+          "lastValue": 19,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715950,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 124,
+          "lastValue": 124,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 18,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301752,
+      "city": "Mumbai",
+      "name": "Mazgaon, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715057,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 28,
+          "lastValue": 28,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715003,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 18,
+          "lastValue": 18,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715388,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 27000,
+          "lastValue": 27000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715378,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 40,
+          "lastValue": 40,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715142,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 264,
+          "lastValue": 264,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715200,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 137,
+          "lastValue": 137,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 18,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301761,
+      "city": "Mumbai",
+      "name": "Mulund West, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715822,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 136,
+          "lastValue": 136,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715276,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 13,
+          "lastValue": 13,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715658,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 145,
+          "lastValue": 145,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715648,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 43000,
+          "lastValue": 43000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715225,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 10,
+          "lastValue": 10,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 15,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301770,
+      "city": "Mumbai",
+      "name": "Navy Nagar-Colaba, Mumbai - IITM",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715034,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 27000,
+          "lastValue": 27000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715940,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 38,
+          "lastValue": 38,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715937,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 123,
+          "lastValue": 123,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715707,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 75,
+          "lastValue": 75,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715027,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 1,
+          "lastValue": 1,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715674,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 153,
+          "lastValue": 153,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 18,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301789,
+      "city": "Mumbai",
+      "name": "Powai, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715011,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 145,
+          "lastValue": 145,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715673,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 62,
+          "lastValue": 62,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715720,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 5,
+          "lastValue": 5,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715873,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 27000,
+          "lastValue": 27000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715178,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 56,
+          "lastValue": 56,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715936,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 128,
+          "lastValue": 128,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 18,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301840,
+      "city": "Mumbai",
+      "name": "Sion, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715285,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 9,
+          "lastValue": 9,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715106,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 108,
+          "lastValue": 108,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1714832,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 60,
+          "lastValue": 60,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1714800,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 8,
+          "lastValue": 8,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715330,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 131,
+          "lastValue": 131,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 15,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301861,
+      "city": "Mumbai",
+      "name": "Vile Parle West, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1714891,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 24,
+          "lastValue": 24,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715505,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 132,
+          "lastValue": 132,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715379,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 85,
+          "lastValue": 85,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1714946,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 18,
+          "lastValue": 18,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715833,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 38000,
+          "lastValue": 38000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715089,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 10,
+          "lastValue": 10,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 18,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 301864,
+      "city": "Mumbai",
+      "name": "Worli, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        },
+        {
+          "url": "https://data.gov.in/resources/real-time-air-quality-index-various-locations",
+          "name": "data.gov.in",
+          "id": "data-gov-in",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1715906,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 42,
+          "lastValue": 42,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715248,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 4,
+          "lastValue": 4,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1714829,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 34000,
+          "lastValue": 34000,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715859,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 91,
+          "lastValue": 91,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715199,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 136,
+          "lastValue": 136,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1715956,
+          "unit": "µg/m³",
+          "count": 3,
+          "average": 19,
+          "lastValue": 19,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2022-03-24T23:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2022-03-24T23:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "lastUpdated": "2022-03-24T23:30:00+00:00",
+      "firstUpdated": "2022-03-24T23:30:00+00:00",
+      "measurements": 18,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 7850,
+      "city": "Mumbai",
+      "name": "Bandra, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 36446,
+          "unit": "µg/m³",
+          "count": 48095,
+          "average": 20.7205287451918,
+          "lastValue": 24.06,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2021-12-24T04:45:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2020-01-08T10:45:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 36451,
+          "unit": "µg/m³",
+          "count": 43256,
+          "average": 262.324879091918,
+          "lastValue": 722.78,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2021-11-19T11:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2020-01-08T10:45:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 36453,
+          "unit": "µg/m³",
+          "count": 41482,
+          "average": 16.9578180897739,
+          "lastValue": 0,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2021-11-19T11:00:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2020-01-08T10:45:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 36455,
+          "unit": "µg/m³",
+          "count": 43922,
+          "average": 1666.59737716862,
+          "lastValue": 250,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2021-11-19T11:00:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2020-01-08T10:45:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 22798,
+          "unit": "µg/m³",
+          "count": 44639,
+          "average": 65.8843739779117,
+          "lastValue": 104.3,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2021-12-24T04:45:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2020-01-08T10:45:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 36447,
+          "unit": "µg/m³",
+          "count": 49250,
+          "average": 28.6476990862944,
+          "lastValue": 38,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2021-12-24T04:45:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-01-08T10:45:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.0627,
+        "longitude": 72.84614
+      },
+      "lastUpdated": "2021-12-24T04:45:00+00:00",
+      "firstUpdated": "2020-01-08T10:45:00+00:00",
+      "measurements": 270644,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 10899,
+      "city": "Mumbai",
+      "name": "Borivali East, Mumbai - MPCB",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 36525,
+          "unit": "µg/m³",
+          "count": 32213,
+          "average": 55.430754664266,
+          "lastValue": 58.12,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2021-11-17T06:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-01-08T11:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 36529,
+          "unit": "µg/m³",
+          "count": 28508,
+          "average": 429.33422197278,
+          "lastValue": 470,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2021-11-17T06:30:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2020-01-08T11:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 36528,
+          "unit": "µg/m³",
+          "count": 30540,
+          "average": 3.70954223968566,
+          "lastValue": 7.63,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2021-11-17T06:30:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2020-01-08T11:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 36527,
+          "unit": "µg/m³",
+          "count": 28871,
+          "average": 12.6058051331786,
+          "lastValue": 32.1,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2021-11-17T06:30:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2020-01-08T11:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 36526,
+          "unit": "µg/m³",
+          "count": 30160,
+          "average": 115.711521220159,
+          "lastValue": 89.67,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2021-11-17T06:30:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2020-01-08T11:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 36524,
+          "unit": "µg/m³",
+          "count": 29581,
+          "average": 5.42153341672019,
+          "lastValue": 9.59,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2021-11-17T06:30:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2020-01-08T11:00:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.13276,
+        "longitude": 72.52048
+      },
+      "lastUpdated": "2021-11-17T06:30:00+00:00",
+      "firstUpdated": "2020-01-08T11:00:00+00:00",
+      "measurements": 179873,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 2582,
+      "city": "Mumbai",
+      "name": "Maharashtra Pollution Control Board Bandra",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing",
+          "name": "Central Pollution Control Board",
+          "id": "central-pollution-control-board",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 5335,
+          "unit": "µg/m³",
+          "count": 129120,
+          "average": 42.0156796778191,
+          "lastValue": 46.74,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2020-01-08T10:15:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2016-03-21T16:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 5376,
+          "unit": "µg/m³",
+          "count": 129437,
+          "average": 2015.83581201666,
+          "lastValue": 2570,
+          "parameter": "co",
+          "displayName": "CO mass",
+          "lastUpdated": "2020-01-08T10:15:00+00:00",
+          "parameterId": 4,
+          "firstUpdated": "2016-03-21T16:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 14342,
+          "unit": "µg/m³",
+          "count": 95619,
+          "average": 14.1889638042648,
+          "lastValue": 30.47,
+          "parameter": "so2",
+          "displayName": "SO₂ mass",
+          "lastUpdated": "2020-01-08T10:15:00+00:00",
+          "parameterId": 6,
+          "firstUpdated": "2017-06-19T20:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 5382,
+          "unit": "µg/m³",
+          "count": 123603,
+          "average": 98.7593672483678,
+          "lastValue": 124.79,
+          "parameter": "pm10",
+          "displayName": "PM10",
+          "lastUpdated": "2020-01-08T10:15:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2016-03-21T16:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 5379,
+          "unit": "µg/m³",
+          "count": 128419,
+          "average": 25.2800116805146,
+          "lastValue": 10.75,
+          "parameter": "o3",
+          "displayName": "O₃ mass",
+          "lastUpdated": "2020-01-08T10:15:00+00:00",
+          "parameterId": 3,
+          "firstUpdated": "2016-03-21T16:15:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 5377,
+          "unit": "µg/m³",
+          "count": 127826,
+          "average": 23.9871672429709,
+          "lastValue": 16.58,
+          "parameter": "no2",
+          "displayName": "NO₂ mass",
+          "lastUpdated": "2020-01-08T10:15:00+00:00",
+          "parameterId": 5,
+          "firstUpdated": "2016-03-21T16:15:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.041847,
+        "longitude": 72.865513
+      },
+      "lastUpdated": "2020-01-08T10:15:00+00:00",
+      "firstUpdated": "2016-03-21T16:15:00+00:00",
+      "measurements": 734024,
+      "bounds": null,
+      "manufacturers": null
+    },
+    {
+      "id": 2462,
+      "city": "Mumbai",
+      "name": "US Diplomatic Post: Mumbai",
+      "entity": "government",
+      "country": "IN",
+      "sources": [
+        {
+          "url": "http://airnow.gov/index.cfm?action=airnow.global_summary",
+          "name": "EPA AirNow DOS",
+          "id": "epa-airnow-dos",
+          "readme": null,
+          "organization": null,
+          "lifecycle_stage": null
+        }
+      ],
+      "isMobile": false,
+      "isAnalysis": false,
+      "parameters": [
+        {
+          "id": 4726,
+          "unit": "µg/m³",
+          "count": 6780,
+          "average": -72.4629498525074,
+          "lastValue": 71.6,
+          "parameter": "pm25",
+          "displayName": "PM2.5",
+          "lastUpdated": "2016-11-09T16:30:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2016-01-30T00:30:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": "reference grade",
+      "coordinates": {
+        "latitude": 19.066023,
+        "longitude": 72.868702
+      },
+      "lastUpdated": "2016-11-09T16:30:00+00:00",
+      "firstUpdated": "2016-01-30T00:30:00+00:00",
+      "measurements": 6780,
+      "bounds": null,
+      "manufacturers": null
+    }
+  ]
+}
